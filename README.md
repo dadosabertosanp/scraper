@@ -1,16 +1,17 @@
-# 🏢 Scraper de Faturas ANP
+# 🏢 Scraper de dados abertos da ANP
 
-Automação para coleta de dados de faturas da ANP do portal de transparência.
+Automação para coleta de dados de contratos e faturas da ANP do portal de transparência.
 
 ## ⚙️ Funcionalidades
 
-- Coleta automática diária de faturas
+- Coleta automática diária de faturas através de HTTP POST nas páginas.
+- Coleta da API com contratos
 - Armazenamento em JSON estruturado
-- Execução via GitHub Actions
+- Execução via GitHub Actions agendado diariamente
 
 ## 📊 Estrutura de Dados
 
-Os dados são salvos em `data/faturas_anp.json` com:
+Os dados são salvos em `data/*******.json` com:
 - Data da última atualização
 - Total de registros
 - Array com todos os registros
@@ -19,7 +20,7 @@ Os dados são salvos em `data/faturas_anp.json` com:
 
 1. O scraper executa automaticamente todo dia às 5h (BRT)
 2. Execute manualmente pela aba "Actions" no GitHub
-3. Os dados ficam disponíveis em `data/faturas_anp.json`
+3. Os dados ficam disponíveis em `data/*******.json`
 
 ## 🔐 Segurança
 
@@ -28,6 +29,11 @@ Os dados são salvos em `data/faturas_anp.json` com:
 - Nenhuma credencial armazenada
 
 ## 🔗 Links Úteis
-- **Dados JSON:** `https://raw.githubusercontent.com/dadosabertosanp/anp-faturas-scraper/main/data/faturas_anp.json`
 - **Fonte Oficial:** https://contratos.comprasnet.gov.br
 - **Página com faturas:** https://contratos.comprasnet.gov.br/transparencia/faturas?orgao=%5B%2232205%22%5D
+- **URL das faturas em JSON:** "https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/faturas.json"
+- **URL dos contratos em JSON:** "https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/contratos.json"
+
+
+
+
