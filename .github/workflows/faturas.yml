@@ -2,12 +2,23 @@ name: Faturas ANP
 on:
   schedule:
     - cron: '0 5 * * 1-5'  # Segunda a sexta às 5h UTC (2h BRT)
-  workflow_dispatch:
+  workflow_dispatch:        # ✅ Apenas colaboradores podem executar
+
+# 🔒 RESTRIÇÕES DE PERMISSÃO
+permissions:
+  actions: none
+  contents: none
 
 jobs:
   scrape-faturas:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    
+    # 🔓 PERMISSÕES ESPECÍFICAS PARA O JOB
+    permissions:
+      actions: read
+      contents: write
+      id-token: write
     
     steps:
     - name: Checkout código
