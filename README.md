@@ -29,22 +29,37 @@ Consuma no Power Apps, Excel, ou qualquer aplicação
 Dados atualizados automaticamente diariamente
 
 🔐 Transparência e Segurança
+
 ✅ Repositório público e aberto
+
 ✅ Apenas dados públicos oficiais
+
 ✅ Nenhuma credencial ou dado sensível
+
 ✅ Código aberto para auditoria
+
 
 🔗 Fontes Oficiais
 Portal de Transparência: https://contratos.comprasnet.gov.br
 Faturas da ANP: https://contratos.comprasnet.gov.br/transparencia/faturas?orgao=[32205]
 API de Contratos: https://dadosabertos.compras.gov.br/modulo-contratos
 
+
 📈 Estatísticas de Execução
+
 ⏱️ Tempo médio: 1-2 minutos por execução
+
 📊 Consumo: ≈2% do limite gratuito mensal
+
 💰 Custo: $0.00 (plano gratuito)
 
+
 💡 Informações Técnicas
+
 Desenvolvido em Python 3.10
+
 Agendamento via GitHub Actions
+
 JSON otimizado para Power Apps
+
+
