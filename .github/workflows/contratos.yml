@@ -2,12 +2,23 @@ name: Contratos ANP
 on:
   schedule:
     - cron: '0 6 * * 1-5'  # Segunda a sexta às 6h UTC (3h BRT)
-  workflow_dispatch:
+  workflow_dispatch:        # ✅ Apenas colaboradores podem executar
+
+# 🔒 RESTRIÇÕES DE PERMISSÃO
+permissions:
+  actions: none
+  contents: none
 
 jobs:
   contratos:
     runs-on: ubuntu-latest
-    timeout-minutes: 45  # Pode levar mais tempo devido aos anos de histórico
+    timeout-minutes: 45
+    
+    # 🔓 PERMISSÕES ESPECÍFICAS PARA O JOB
+    permissions:
+      actions: read
+      contents: write
+      id-token: write
     
     steps:
     - name: Checkout código
