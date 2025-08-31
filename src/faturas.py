@@ -195,7 +195,7 @@ def main():
 
         # 3️⃣ Salvar em JSON
         os.makedirs('data', exist_ok=True)
-        arquivo_json = os.path.join('data', 'faturas_anp.json')
+        arquivo_json = os.path.join('data', 'faturas.json')
         
         resultado = {
             "ultima_atualizacao": datetime.now().isoformat(),
