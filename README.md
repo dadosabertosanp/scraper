@@ -1,39 +1,50 @@
-# 🏢 Scraper de dados abertos da ANP
-
+🏢 **Scraper de dados abertos da ANP**
 Automação para coleta de dados de contratos e faturas da ANP do portal de transparência.
 
 ## ⚙️ Funcionalidades
-
-- Coleta automática diária de faturas através de HTTP POST nas páginas.
-- Coleta da API com contratos
-- Armazenamento em JSON estruturado
-- Execução via GitHub Actions agendado diariamente
+- 📋 Coleta automática de **faturas** via web scraping do portal de transparência
+- 📄 Coleta de **contratos** através da API oficial de dados abertos
+- 💾 Armazenamento em JSON estruturado e padronizado
+- ⏰ Execução automática via GitHub Actions (segunda a sexta-feira)
+- 🔄 Atualização diária dos dados
 
 ## 📊 Estrutura de Dados
+Os dados são salvos em `data/*.json` com schema padronizado: ```json
+{
+  "ultima_atualizacao": "2024-01-15T10:30:00",
+  "total_registros": 150,
+  "dados": [...]
+}
+🕐 Agendamento
+Faturas: Segunda a sexta, 5h UTC (2h BRT)
+Contratos: Segunda a sexta, 6h UTC (3h BRT)
 
-Os dados são salvos em `data/*******.json` com:
-- Data da última atualização
-- Total de registros
-- Array com todos os registros
+📦 Dados Disponíveis
+Faturas: https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/faturas.json
+Contratos: https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/contratos.json
 
-## 🚀 Como Usar
+🚀 Como Usar
+Acesse os JSONs diretamente pelos links acima
+Consuma no Power Apps, Excel, ou qualquer aplicação
+Dados atualizados automaticamente diariamente
 
-1. O scraper executa automaticamente todo dia às 5h (BRT)
-2. Execute manualmente pela aba "Actions" no GitHub
-3. Os dados ficam disponíveis em `data/*******.json`
+🔐 Transparência e Segurança
+✅ Repositório público e aberto
+✅ Apenas dados públicos oficiais
+✅ Nenhuma credencial ou dado sensível
+✅ Código aberto para auditoria
 
-## 🔐 Segurança
+🔗 Fontes Oficiais
+Portal de Transparência: https://contratos.comprasnet.gov.br
+Faturas da ANP: https://contratos.comprasnet.gov.br/transparencia/faturas?orgao=[32205]
+API de Contratos: https://dadosabertos.compras.gov.br/modulo-contratos
 
-- Repositório público
-- Apenas dados públicos
-- Nenhuma credencial armazenada
+📈 Estatísticas de Execução
+⏱️ Tempo médio: 1-2 minutos por execução
+📊 Consumo: ≈2% do limite gratuito mensal
+💰 Custo: $0.00 (plano gratuito)
 
-## 🔗 Links Úteis
-- **Fonte Oficial:** https://contratos.comprasnet.gov.br
-- **Página com faturas:** https://contratos.comprasnet.gov.br/transparencia/faturas?orgao=%5B%2232205%22%5D
-- **URL das faturas em JSON:** "https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/faturas.json"
-- **URL dos contratos em JSON:** "https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/contratos.json"
-
-
-
-
+💡 Informações Técnicas
+Desenvolvido em Python 3.10
+Agendamento via GitHub Actions
+JSON otimizado para Power Apps
