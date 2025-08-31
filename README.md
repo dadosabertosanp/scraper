@@ -1,4 +1,5 @@
-##🏢 **Scraper de dados abertos da ANP**
+
+## 🏢 Scrapter de dados abertos ANP
 
 Automação para coleta de dados de contratos e faturas da ANP do portal de transparência.
 
@@ -19,21 +20,19 @@ Os dados são salvos em `data/*.json` com schema padronizado: ```json
   "dados": [...]
 }
 
-##🕐 Agendamento:
+## 🕐 Agendamento
 
-Faturas: Segunda a sexta, 5h UTC (2h BRT)
+- 📋 Faturas: Segunda a sexta, 5h UTC (2h BRT)
 
-Contratos: Segunda a sexta, 6h UTC (3h BRT)
+- 📄 Contratos: Segunda a sexta, 6h UTC (3h BRT)
 
-
-##📦 Dados Disponíveis:
+## 📦 AgendamentoDados Disponíveis
 
 Faturas: https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/faturas.json
 
 Contratos: https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/contratos.json
 
-
-##🚀 Como Usar:
+## 🚀 Como Usar
 
 Acesse os JSONs diretamente pelos links acima
 
@@ -41,8 +40,7 @@ Consuma no Power Apps, Excel, ou qualquer aplicação
 
 Dados atualizados automaticamente diariamente
 
-
-##🔐 Transparência e Segurança:
+## 🔐 Transparência e Segurança
 
 ✅ Repositório público e aberto
 
@@ -52,8 +50,7 @@ Dados atualizados automaticamente diariamente
 
 ✅ Código aberto para auditoria
 
-
-##🔗 Fontes Oficiais:
+## 🔗 Fonter Oficiais
 
 Portal de Transparência: https://contratos.comprasnet.gov.br
 
@@ -61,8 +58,7 @@ Faturas da ANP: https://contratos.comprasnet.gov.br/transparencia/faturas?orgao=
 
 API de Contratos: https://dadosabertos.compras.gov.br/modulo-contratos
 
-
-##📈 Estatísticas de Execução:
+## 📈 Estatísticas de Execução
 
 ⏱️ Tempo médio: 1-2 minutos por execução
 
@@ -70,8 +66,7 @@ API de Contratos: https://dadosabertos.compras.gov.br/modulo-contratos
 
 💰 Custo: $0.00 (plano gratuito)
 
-
-##💡 Informações Técnicas:
+## 💡 Informações Téncicas
 
 Desenvolvido em Python 3.10
 
