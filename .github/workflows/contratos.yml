@@ -1,1 +1,36 @@
+name: Contratos ANP
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'  # Segunda a sexta às 6h UTC (3h BRT)
+  workflow_dispatch:
 
+jobs:
+  contratos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45  # Pode levar mais tempo devido aos anos de histórico
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT_TOKEN }}
+        
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: pip install requests
+        
+    - name: Run contratos API
+      run: python src/contratos.py
+        
+    - name: Commit and push contratos data
+      run: |
+        git config --local user.email "github_anp@outlook.com"
+        git config --local user.name "GitHub ANP Automation"
+        git add data/contratos.json
+        git commit -m "📦 Contratos Update: $(date +'%Y-%m-%d %H:%M')" || echo "Sem alterações para commit"
+        git push
