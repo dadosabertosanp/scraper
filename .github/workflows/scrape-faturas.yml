@@ -1,43 +1,36 @@
 name: Scrape Faturas ANP
 on:
   schedule:
-    - cron: '0 8 * * *'  # 8h UTC = 5h BRT
-  workflow_dispatch:       # Permite execução manual
+    - cron: '0 5 * * 1-5'  # Segunda a sexta às 5h UTC (2h BRT)
+  workflow_dispatch:         # Permite execução manual
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Previne execuções infinitas
     
     steps:
     - name: Checkout código
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.PAT_TOKEN }}
-        path: .  # Força o checkout no diretório atual
         
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+        cache: 'pip'  # Habilita cache de dependências
         
     - name: Install dependencies
       run: pip install requests beautifulsoup4
         
     - name: Run scraper
-      run: |
-        # Navega para a pasta correta se necessário
-        if [ -d "anp-faturas-scraper" ]; then
-          cd anp-faturas-scraper
-        fi
-        python src/faturas_scraper.py
+      run: python src/faturas_scraper.py
         
-    - name: Commit and push
+    - name: Commit and push changes
       run: |
-        if [ -d "anp-faturas-scraper" ]; then
-          cd anp-faturas-scraper
-        fi
         git config --local user.email "github_anp@outlook.com"
         git config --local user.name "GitHub ANP Automation"
         git add data/faturas_anp.json
-        git commit -m "📦 Auto-update: Faturas ANP $(date +'%Y-%m-%d %H:%M')"
+        git commit -m "📦 Auto-update: Faturas ANP $(date +'%Y-%m-%d %H:%M')" || echo "Sem alterações para commit"
         git push
