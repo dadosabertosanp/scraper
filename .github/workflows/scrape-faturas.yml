@@ -1,0 +1,36 @@
+name: Scrape Faturas ANP
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Executa às 8h UTC todo dia (5h BRT)
+  workflow_dispatch:       # Permite execução manual
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        cd src
+        pip install -r requirements.txt
+        
+    - name: Run scraper
+      run: |
+        cd src
+        python faturas_scraper.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/faturas_anp.json
+        git commit -m "📦 Auto-update: Faturas ANP $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+        git push
