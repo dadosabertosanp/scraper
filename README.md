@@ -26,7 +26,7 @@ Os dados são salvos em `data/*.json` com schema padronizado: ```json
 
 - 📄 Contratos: Segunda a sexta, 6h UTC (3h BRT)
 
-## 📦 AgendamentoDados Disponíveis
+## 📦 Dados Disponíveis
 
 Faturas: https://raw.githubusercontent.com/dadosabertosanp/scraper/main/data/faturas.json
 
