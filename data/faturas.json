@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2025-11-19T05:11:37.068475",
-  "total_registros": 3742,
+  "ultima_atualizacao": "2025-11-20T05:11:17.617932",
+  "total_registros": 3743,
   "dados": [
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
@@ -108262,6 +108262,35 @@
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
       "ug": "323031 - ESC.CENTRAL DA ANP",
+      "fornecedor": "04.201.934/0001-42 - FAST AUTOMOTIVE E TURISMO LTD",
+      "contrato": "09028/2025",
+      "fundamento_legal": "LEI 14.133/2021",
+      "objeto": "PRESTAÇÃO DE SERVIÇOS",
+      "observacao": null,
+      "numero_fatura": "1248",
+      "data_emissao": "2025-11-18",
+      "data_recebimento": "2025-11-19",
+      "data_vencimento": "2025-12-04",
+      "data_pagamento": "2025-12-04",
+      "valor_original": 119058.3,
+      "retencao": 0.0,
+      "glosa": 0.0,
+      "deducoes": -0.0,
+      "valor_final": 119058.3,
+      "processo": "48610.231580/2024-17",
+      "data_referencia": "2025-11-18",
+      "sub_rogacao": null,
+      "indicio_sobrepreco": "Não",
+      "mes": null,
+      "ano": null,
+      "situacao": "Siafi Erro",
+      "data_ultima_atualizacao": null,
+      "cnpj_fornecedor": "04.201.934/0001-42",
+      "nome_fornecedor": "FAST AUTOMOTIVE E TURISMO LTD"
+    },
+    {
+      "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
+      "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "53.113.791/0001-22 - TOTVS S.A.",
       "contrato": "05045/2022",
       "fundamento_legal": "LEI 8.666 / 1993",
@@ -108486,7 +108515,7 @@
       "indicio_sobrepreco": "Não",
       "mes": null,
       "ano": null,
-      "situacao": "Siafi Erro",
+      "situacao": "Siafi Apropriado",
       "data_ultima_atualizacao": null,
       "cnpj_fornecedor": "46.730.873/0001-50",
       "nome_fornecedor": "RECRUTAMENTO E SELECAO BRASIL"
