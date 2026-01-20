@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-01-19T05:23:50.738392",
-  "total_registros": 4154,
+  "ultima_atualizacao": "2026-01-20T05:21:44.915707",
+  "total_registros": 4155,
   "dados": [
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
@@ -120177,6 +120177,35 @@
       "data_ultima_atualizacao": null,
       "cnpj_fornecedor": "97.456.065/0001-88",
       "nome_fornecedor": "MINAS TURISMO E SERVICOS LTDA"
+    },
+    {
+      "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
+      "ug": "323031 - ESC.CENTRAL DA ANP",
+      "fornecedor": "40.432.544/0001-47 - CLARO S.A.",
+      "contrato": "09046/2024",
+      "fundamento_legal": "LEI 14.133/2021",
+      "objeto": "PRESTAÇÃO DE SERVIÇOS",
+      "observacao": null,
+      "numero_fatura": "180459187011",
+      "data_emissao": "2026-01-19",
+      "data_recebimento": "2026-01-19",
+      "data_vencimento": "2026-01-30",
+      "data_pagamento": "2026-02-02",
+      "valor_original": 18645.35,
+      "retencao": 0.0,
+      "glosa": 0.0,
+      "deducoes": -0.0,
+      "valor_final": 18645.35,
+      "processo": "48610201554202456",
+      "data_referencia": "2026-01-19",
+      "sub_rogacao": null,
+      "indicio_sobrepreco": "Não",
+      "mes": null,
+      "ano": null,
+      "situacao": "Siafi Apropriado",
+      "data_ultima_atualizacao": null,
+      "cnpj_fornecedor": "40.432.544/0001-47",
+      "nome_fornecedor": "CLARO S.A."
     },
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
