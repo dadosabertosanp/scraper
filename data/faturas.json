@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-01-20T05:21:44.915707",
-  "total_registros": 4155,
+  "ultima_atualizacao": "2026-01-21T05:21:15.299834",
+  "total_registros": 4156,
   "dados": [
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
@@ -120235,6 +120235,35 @@
       "data_ultima_atualizacao": null,
       "cnpj_fornecedor": "09.168.704/0001-42",
       "nome_fornecedor": "EMPRESA BRASIL DE COMUNICACAO..."
+    },
+    {
+      "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
+      "ug": "323031 - ESC.CENTRAL DA ANP",
+      "fornecedor": "00.331.788/0057-73 - AIR LIQUIDE BRASIL LTDA",
+      "contrato": "2025NE000702",
+      "fundamento_legal": "LEI 14.133/2021",
+      "objeto": "FORNECIMENTO DE BENS",
+      "observacao": null,
+      "numero_fatura": "98182",
+      "data_emissao": "2025-12-22",
+      "data_recebimento": "2026-01-20",
+      "data_vencimento": "2026-02-03",
+      "data_pagamento": "2026-02-03",
+      "valor_original": 1708.5,
+      "retencao": 0.0,
+      "glosa": 0.0,
+      "deducoes": -0.0,
+      "valor_final": 1708.5,
+      "processo": "48600.204865/2024-96",
+      "data_referencia": "2025-12-30",
+      "sub_rogacao": null,
+      "indicio_sobrepreco": "Não",
+      "mes": null,
+      "ano": null,
+      "situacao": "Pendente",
+      "data_ultima_atualizacao": null,
+      "cnpj_fornecedor": "00.331.788/0057-73",
+      "nome_fornecedor": "AIR LIQUIDE BRASIL LTDA"
     },
     {
       "orgao": "32205 - AGENCIA NACIONAL DO PETROLEO",
