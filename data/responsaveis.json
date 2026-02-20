@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-02-19T07:06:58.248311",
-  "total_registros": 132,
+  "ultima_atualizacao": "2026-02-20T07:04:02.145151",
+  "total_registros": 130,
   "dados": [
     {
       "numeroContrato": "00001/2022",
@@ -603,31 +603,6 @@
       ]
     },
     {
-      "numeroContrato": "05020/2023",
-      "responsaveis": [
-        {
-          "cpf": "***.527.027-**",
-          "nome": "JAYME DE ALMEIDA LOPES",
-          "tipo": "Fiscal Requisitante"
-        },
-        {
-          "cpf": "***.651.927-**",
-          "nome": "HESLEY DA SILVA PY",
-          "tipo": "Fiscal Técnico"
-        },
-        {
-          "cpf": "***.476.213-**",
-          "nome": "JOSÉ ESMERALDO BARRETO NETO",
-          "tipo": "Fiscal Administrativo"
-        },
-        {
-          "cpf": "***.896.037-**",
-          "nome": "SAHID DE OLIVEIRA KIK",
-          "tipo": "Fiscal Administrativo Substituto"
-        }
-      ]
-    },
-    {
       "numeroContrato": "05021/2023",
       "responsaveis": [
         {
@@ -1054,31 +1029,6 @@
     },
     {
       "numeroContrato": "09003/2024",
-      "responsaveis": [
-        {
-          "cpf": "***.527.027-**",
-          "nome": "JAYME DE ALMEIDA LOPES",
-          "tipo": "Fiscal Requisitante"
-        },
-        {
-          "cpf": "***.651.927-**",
-          "nome": "HESLEY DA SILVA PY",
-          "tipo": "Fiscal Técnico"
-        },
-        {
-          "cpf": "***.476.213-**",
-          "nome": "JOSÉ ESMERALDO BARRETO NETO",
-          "tipo": "Fiscal Administrativo"
-        },
-        {
-          "cpf": "***.896.037-**",
-          "nome": "SAHID DE OLIVEIRA KIK",
-          "tipo": "Fiscal Administrativo Substituto"
-        }
-      ]
-    },
-    {
-      "numeroContrato": "09003/2025",
       "responsaveis": [
         {
           "cpf": "***.527.027-**",
