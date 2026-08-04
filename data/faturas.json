@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-03T08:18:55.091802",
+  "ultima_atualizacao": "2026-08-04T07:30:35.282682",
   "total_registros": 5000,
   "dados": [
     {
@@ -34053,7 +34053,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "02.242.714/0001-31 - ASSOCIACAO DOS TAXISTAS PRIME",
       "contrato": "09035/2020",
-      "fundamento_legal": "LEI 10.520 / 2002",
+      "fundamento_legal": "DECRETO 10.024/2019",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "31693",
@@ -34082,7 +34082,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "02.242.714/0001-31 - ASSOCIACAO DOS TAXISTAS PRIME",
       "contrato": "09035/2020",
-      "fundamento_legal": "DECRETO 10.024/2019",
+      "fundamento_legal": "LEI 10.520 / 2002",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "31693",
@@ -141429,7 +141429,7 @@
       "sub_rogacao": null,
       "indicio_sobrepreco": "Não",
       "mes": "06 / 2026 - 1.859,90",
-      "ano": "Pendente",
+      "ano": "Siafi Apropriado",
       "situacao": "Não Informada",
       "data_ultima_atualizacao": null,
       "cnpj_fornecedor": "35.279.491/0001-36",
