@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-04T07:30:35.282682",
+  "ultima_atualizacao": "2026-08-05T07:31:05.578966",
   "total_registros": 5000,
   "dados": [
     {
@@ -29007,7 +29007,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "14.466.103/0001-56 - RP SERVICOS DE MANUTENCAO E M...",
       "contrato": "09008/2017",
-      "fundamento_legal": "LEI 10.520 / 2002",
+      "fundamento_legal": "DECRETO 10.024/2019",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "2227",
@@ -29036,7 +29036,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "14.466.103/0001-56 - RP SERVICOS DE MANUTENCAO E M...",
       "contrato": "09008/2017",
-      "fundamento_legal": "DECRETO 10.024/2019",
+      "fundamento_legal": "LEI 10.520 / 2002",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "2227",
