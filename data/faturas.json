@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-27T15:58:34.527837",
+  "ultima_atualizacao": "2026-08-28T16:59:47.309338",
   "total_registros": 5000,
   "dados": [
     {
@@ -13086,7 +13086,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "14.466.103/0001-56 - RP SERVICOS DE MANUTENCAO E M...",
       "contrato": "09008/2017",
-      "fundamento_legal": "LEI 10.520 / 2002",
+      "fundamento_legal": "DECRETO 10.024/2019",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "2172",
@@ -13115,7 +13115,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "14.466.103/0001-56 - RP SERVICOS DE MANUTENCAO E M...",
       "contrato": "09008/2017",
-      "fundamento_legal": "DECRETO 10.024/2019",
+      "fundamento_legal": "LEI 10.520 / 2002",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "2172",
@@ -31733,7 +31733,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "02.242.714/0001-31 - ASSOCIACAO DOS TAXISTAS PRIME",
       "contrato": "09035/2020",
-      "fundamento_legal": "LEI 10.520 / 2002",
+      "fundamento_legal": "DECRETO 10.024/2019",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "31410",
@@ -31762,7 +31762,7 @@
       "ug": "323031 - ESC.CENTRAL DA ANP",
       "fornecedor": "02.242.714/0001-31 - ASSOCIACAO DOS TAXISTAS PRIME",
       "contrato": "09035/2020",
-      "fundamento_legal": "DECRETO 10.024/2019",
+      "fundamento_legal": "LEI 10.520 / 2002",
       "objeto": "PRESTAÇÃO DE SERVIÇOS",
       "observacao": null,
       "numero_fatura": "31410",
